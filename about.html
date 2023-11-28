@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/about.css">
+  </head>
+  <body class="home">
+    <header class="primary-header container flex">
+      <div class="header-inner-one flex">
+        <div class="logo">
+          <img src="image/logo.png" alt="" />
+        </div>
+        <button
+          class="mobile-close-btn"
+          data-visbile="false"
+          aria-controls="primary-navigation"
+        >
+          <i class="uil uil-times-circle"></i>
+        </button>
+        <nav>
+          <ul
+            id="primary-navigation"
+            data-visbile="false"
+            class="primary-navigation flex"
+          >
+            <li>
+              <a class="fs-100 fs-montserrat bold-500" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="fs-100 fs-montserrat bold-500" href="shop.html">Shop</a>
+            </li>
+            <li>
+              <a class="active fs-100 fs-montserrat bold-500" href="about.html"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a class="fs-100 fs-montserrat bold-500" href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a class="fs-100 fs-montserrat bold-500" href="contactus.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-login flex">
+        <p class="fs-100 fs-montserrat bold-500">Login</p>
+        <i class="uil uil-search"></i>
+        <i
+          id="cart-box"
+          aria-controls="cart-icon"
+          class="uil uil-shopping-bag"
+        ></i>
+        <!-- cart box  -->
+        <div id="cart-icon" class="cart-icon" data-visbile="false">
+          <div class="shopping flex">
+            <p>Shopping Basket</p>
+            <i id="cross-btn" class="uil uil-times"></i>
+          </div>
+          <div class="cart bold-800 flex">
+            <i class="uil uil-shopping-cart-alt"></i>
+            <p>Cart is Empty</p>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-open-btn">
+        <i class="uil uil-align-right"></i>
+      </div>
+    </header>
+    <!-- About Main -->
+
+    <!-- Feature Section -->
+    <!-- Shop Feature Section -->
+    <section class="shop-feature bg-gray grid">
+      <div>
+        <p class="fs-montserrat text-black">
+          Home <span aria-haspopup="true" class="margin">></span>About Us
+        </p>
+      </div>
+      <h2 class="fs-poppins fs-300 bold-700">About Us</h2>
+    </section>
+    <!-- Feature Section -->
+    <!-- About Main Section -->
+    <section class="about-section grid">
+      <div>
+        <img src="image/about-us.png" alt="">
+      </div>
+      <div class="about-info">
+        <h3 class="fs-poppins text-red fs-200">Welcome to Digital E-Commerce</h3>
+        <h1 class="fs-montserrat fs-500 text-black">Who We Are?</h1>
+        <p class="fs-montserrat fs-100">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa blanditiis perferendis perspiciatis doloribus tenetur et minima dignissimos! Maiores iure cum ad corporis labore minima quisquam itaque! <br><br> Iusto obcaecati magnam, eius illo autem provident enim consectetur vitae numquam impedit ipsam tempora, porro eos modi libero sed. Placeat, sequi. Unde, eos maxime dolor voluptatem ex accusantium qui voluptatibus corporis eveniet magni eaque, labore et tempore vel iure sint exercitationem dicta?</p>
+        <div class="about-btn">
+          <button class="large-btn text-white bg-red fs-poppins">Shop Now</button>
+        </div>
+      </div>
+    </section>
+    <!-- About Main -->
+        <!-- Brands Section -->
+    <section class="brands grid">
+      <div>
+        <img src="image/br-1.png" alt="" />
+      </div>
+      <div>
+        <img src="image/br-2.png" alt="" />
+      </div>
+      <div>
+        <img src="image/br-3.png" alt="" />
+      </div>
+      <div>
+        <img src="image/br-4.png" alt="" />
+      </div>
+      <div>
+        <img src="image/br-5.png" alt="" />
+      </div>
+    </section>
+        <!-- Footer Section -->
+        <section class="footer grid">
+          <div class="footer-logo grid">
+            <img src="image/logo.png" alt="" />
+            <p class="fs-montserrat fs-100">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+              sit quos quia!
+            </p>
+            <div class="social-media flex">
+              <i class="uil uil-facebook"></i>
+              <i class="uil uil-instagram"></i>
+              <i class="uil uil-twitter"></i>
+              <i class="uil uil-linkedin"></i>
+            </div>
+          </div>
+          <div class="footer-menu grid">
+            <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
+            <ul>
+              <li>
+                <a href="#" class="fs-montserrat text-black fs-100">Home</a>
+              </li>
+              <li>
+                <a href="#" class="fs-montserrat text-black fs-100">About</a>
+              </li>
+              <li>
+                <a href="#" class="fs-montserrat text-black fs-100">Shop</a>
+              </li>
+              <li>
+                <a href="#" class="fs-montserrat text-black fs-100">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact grid">
+            <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+            <p class="fs-montserrat">
+              +99 (0) 101 0000 888 Patricia C Amede 4401 Waldeck Street GrapeVine
+              Nashville, Tx 76051
+            </p>
+          </div>
+          <div class="emails grid">
+            <h3 class="fs-poppins fs-200 bold-800">Sunscribe to our Email</h3>
+            <p class="updates fs-montserrat fs-300 bold-800">For latest news and updates</p>
+            <div class="input-field flex bg-gray">
+              <input
+                type="email"
+                placeholder="Enter Your Email"
+                class="fs-montserrart bg-gray"
+              />
+              <button class="bg-red fs-poppins fs-50 text-white">Subscribe</button>
+            </div>
+          </div>
+        </section>
+        <!-- CopyRight Section -->
+        <section class="copyRight">
+          <p class="c-font fs-montserrat fs-100">All copyrights are reserved</p>
+          <p class="fs-100 fs-montserrat text-align p-top">Privacy policy. Terms and Condition</p>
+        </section>
+    
+        <script src="js/index.js"></script>
+        <!-- <script src="js/shop.js"></script> -->
+      </body>
+    </html>
